@@ -1,5 +1,5 @@
-import { notFound } from 'next/navigation'
 import { allProjects } from 'contentlayer/generated'
+import { notFound } from 'next/navigation'
 
 import { MDXComponent } from '@/components/molecules/mdx-component'
 import { ENV } from '@/lib/constants'
@@ -20,7 +20,7 @@ export async function generateMetadata({ params }: { params: ParamsProps }) {
   const project = await getProjectFromParams(params)
   if (!project) return {}
 
-  const title = project.title + ' | Wiscaksono'
+  const title = project.title + ' | CodeRadds'
   const description = project.summary
   const image = `${ENV.NEXT_PUBLIC_WEBSITE_URL}/api/og?title=${title.split(' ')[0]}`
 

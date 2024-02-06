@@ -97,7 +97,15 @@ export const navMenu = [
       {
         name: 'gear.ts',
         path: '/about/gear.ts'
-      }
+      },
+      {
+        name: 'education.ts',
+        path: '/about/education.ts'
+      },
+     { name: 'achivements.ts',
+      path: '/about/achivements.ts'
+    }
+
     ]
   },
   {

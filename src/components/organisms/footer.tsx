@@ -61,7 +61,7 @@ export const Footer = async () => {
           </Tooltip>
         </TooltipProvider>
         <Link
-          href='mailto:wwicaksono96@gmail.com'
+          href='mailto:bhoyarradhika17@gmail.com'
           target='_blank'
           className='items-center gap-x-1.5 px-2 py-1 md:flex hidden text-muted-foreground hover:text-foreground transition-colors'
         >

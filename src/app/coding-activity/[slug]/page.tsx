@@ -12,7 +12,7 @@ export async function generateMetadata({ params }: { params: ParamsProps }) {
   const data = allActivity.find(component => component.slug === params.slug)
   if (!data) return {}
 
-  const title = data.slug + ' | Radhika'
+  const title = data.slug + ' | CodeRadds'
   const description = data.desc
   const image = `${ENV.NEXT_PUBLIC_WEBSITE_URL}/api/og?title=${title.split(' ')[0]}`
 
