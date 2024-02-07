@@ -1,11 +1,10 @@
 import { Suspense } from 'react'
+import { BsInstagram, BsLinkedin } from 'react-icons/bs'
 import { FaRegEnvelope } from 'react-icons/fa'
-import { BsWhatsapp, BsInstagram, BsLinkedin } from 'react-icons/bs'
-import { TbBrandUpwork } from 'react-icons/tb'
 
-import { AsideLink } from '@/components/atoms/aside-link'
-import { FadeInStagger, FadeIn } from '@/components/atoms/fade-in'
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/atoms/accordion'
+import { AsideLink } from '@/components/atoms/aside-link'
+import { FadeIn, FadeInStagger } from '@/components/atoms/fade-in'
 
 import { ENV } from '@/lib/constants'
 import { generateSEO } from '@/lib/generateSEO'
@@ -57,27 +56,18 @@ const data = [
     list: [
       {
         title: 'Email',
-        href: 'mailto:wwicaksono96@gmail.com',
+        href: 'mailto:bhoyarradhika17@gmail.com',
         icon: <FaRegEnvelope className='w-4 h-4' />
       },
-      {
-        title: 'Upwork',
-        href: 'https://www.upwork.com/freelancers/~01df34d78e05fa69bf',
-        icon: <TbBrandUpwork className='w-4 h-4' />
-      },
-      {
-        title: 'WhatsApp',
-        href: 'https://wa.me/+6287885002327',
-        icon: <BsWhatsapp className='w-4 h-4' />
-      },
+      
       {
         title: 'LinkedIn',
-        href: 'https://www.linkedin.com/in/wiscaksono/',
+        href: 'https://www.linkedin.com/in/radhika-bhoyar-a65220201/',
         icon: <BsLinkedin className='w-4 h-4' />
       },
       {
         title: 'Instagram',
-        href: 'https://www.instagram.com/amachoker/',
+        href: 'https://www.instagram.com/code_raad/',
         icon: <BsInstagram className='w-4 h-4' />
       }
     ]

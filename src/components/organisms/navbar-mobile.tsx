@@ -165,10 +165,10 @@ export const navMenu = [
         name: 'Email',
         path: 'mailto:bhoyarradhika17@gmail.com'
       },
-      {
-        name: 'Upwork',
-        path: 'https://www.upwork.com/freelancers/~01df34d78e05fa69bf'
-      },
+      // {
+      //   name: 'Upwork',
+      //   path: 'https://www.upwork.com/freelancers/~01df34d78e05fa69bf'
+      // },
       // {
       //   name: 'WhatsApp',
       //   path: 'https://wa.me/+6287885002327'

@@ -15,7 +15,7 @@ const MatrixRainBackground: React.FC = () => {
       <MatrixCodeRainComponent
         timeout={10}
         textStrip={['C', 'O', 'D', 'E', '%', 'R', 'A', 'D', 'D', 'S', ';', '9']}
-        theColors={['blue']}
+        theColors={['green']}
         stripCount={29}
       />
     </div>
