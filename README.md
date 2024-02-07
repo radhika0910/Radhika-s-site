@@ -65,4 +65,4 @@ This project is licensed under the MIT License. You are free to use, modify, and
 
 ## Live Demo
 
-Check out the live demo of this portfolio [here](#) (update with your live site URL once deployed).
+Check out the live demo of this portfolio [here](https://radhika-s-site.vercel.app/) .
