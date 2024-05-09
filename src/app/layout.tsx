@@ -22,11 +22,11 @@ export const metadata: Metadata = {
     template: '%s | CodeRadds'
   },
   description:
-    "Get to know me, Wisnu Wicaksono, through this website! I'm a passionate frontend developer and electrical engineering student, and I've poured my skills and creativity into building this site with Next.js and Tailwind CSS. Explore my interactive projects, clean portfolio, and a glimpse into my technical expertise. If you're seeking a talented developer for your next project or simply looking for inspiration, feel free to get in touch!",
+    "Welcome to my portfolio!I'm Radhika Bhoyar, specializing in Artificial Intelligence & Data Science. I’ve led impactful projects in UI/UX and AI during internships at E-TANTRASHALA and MetaACE. Notable projects include JalRakshak for water management and AAP KI AWAZ for inclusive education, earning recognition like winning SIH’2023.Explore my portfolio to see my work in action. Let's collaborate and make a difference!Thanks for stopping by!",
   openGraph: {
     title: 'CodeRadds',
     description:
-      "Get to know me, Wisnu Wicaksono, through this website! I'm a passionate frontend developer and electrical engineering student, and I've poured my skills and creativity into building this site with Next.js and Tailwind CSS. Explore my interactive projects, clean portfolio, and a glimpse into my technical expertise. If you're seeking a talented developer for your next project or simply looking for inspiration, feel free to get in touch!",
+    "Welcome to my portfolio!I'm Radhika Bhoyar, specializing in Artificial Intelligence & Data Science. I’ve led impactful projects in UI/UX and AI during internships at E-TANTRASHALA and MetaACE. Notable projects include JalRakshak for water management and AAP KI AWAZ for inclusive education, earning recognition like winning SIH’2023.Explore my portfolio to see my work in action. Let's collaborate and make a difference!Thanks for stopping by!",
     url: ENV.NEXT_PUBLIC_WEBSITE_URL,
     siteName: 'CodeRadds',
     locale: 'en_US',
