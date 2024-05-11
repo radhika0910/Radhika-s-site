@@ -61,6 +61,8 @@ export default function AboutLayout({ children }: { children: React.ReactNode })
       setUserName('');
       setUserEmail('');
       setEmailError('');
+      // Show success dialogue
+    // window.alert('Post added successfully!');
     } catch (error) {
       console.error('Error adding document: ', error);
     }

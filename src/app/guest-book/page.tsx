@@ -1,7 +1,7 @@
 'use client'
 import { GuestBookRow } from '@/components/molecules/guest-book-card';
 import { db } from '@/lib/firebase'; // Import your Firebase db instance
-import { QueryDocumentSnapshot, collection, getDocs } from 'firebase/firestore';
+import { QueryDocumentSnapshot, collection, getDocs, onSnapshot } from 'firebase/firestore';
 import { useEffect, useState } from 'react';
 
 interface PostData {
@@ -28,7 +28,13 @@ export default function GuestBooks() {
         console.error('Error fetching posts:', error);
       }
     };
-    fetchPosts();
+    
+
+    const unsubscribe = onSnapshot(collection(db, 'posts'), () => {
+      fetchPosts();
+    });
+
+    return () => unsubscribe();
   }, []);
 
   return (
