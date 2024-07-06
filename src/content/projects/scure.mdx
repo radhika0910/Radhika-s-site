@@ -9,36 +9,53 @@ tag:
 ---
 
 
-
 # Scure: Transforming Skin Cancer Diagnosis
 
 ## Overview
-Scure is a revolutionary platform that leverages image capturing and AI-powered algorithms to detect and diagnose skin cancer, providing users with valuable insights and 24/7 doctor consultation. With the rise in skin cancer cases globally, Scure aims to empower individuals with early detection and proactive healthcare solutions.
+Scure leverages state-of-the-art image capturing and AI-driven algorithms to detect and diagnose skin cancer, providing users with critical insights and 24/7 medical consultation. With the rise in global skin cancer cases, Scure empowers individuals with early detection and proactive healthcare solutions.
 
 ## Key Features
 ### 1. Skin Cancer Detection
-Utilizing advanced AI algorithms, Scure can analyze images of moles or skin lesions to detect potential signs of skin cancer. This early detection mechanism aids in timely intervention and treatment.
+Advanced AI algorithms analyze images of moles or skin lesions to identify potential signs of skin cancer, facilitating early intervention and treatment.
 
-### 2. Type of Cancer Detection
-Scure's AI system is capable of identifying the type of skin cancer a mole might have, providing users with specific information and guidance regarding their condition.
+### 2. Cancer Type Identification
+Scure's AI can classify the type of skin cancer, offering users detailed information and guidance.
 
-### 3. 24/7 Doctor Consultation
-Scure offers seamless access to healthcare professionals through its 24/7 online consultation service. Users can receive expert medical advice and recommendations based on their skin analysis results.
+### 3. 24/7 Medical Consultation
+Scure provides round-the-clock access to healthcare professionals, offering expert advice based on skin analysis results.
 
 ## How it Works
-1. **Image Capture**: Users capture images of moles or suspicious skin areas using their smartphones or cameras.
-2. **AI Analysis**: The uploaded images undergo detailed analysis by Scure's AI algorithms, which assess the risk factors and characteristics associated with skin cancer.
-3. **Diagnosis Report**: Users receive a comprehensive diagnosis report indicating whether the mole shows signs of skin cancer, its type if detected, and recommended next steps.
-4. **Doctor Consultation**: For further evaluation or clarification, users can opt for virtual consultations with dermatologists and healthcare professionals available round the clock.
+1. **Image Capture**: Users capture high-resolution images of moles or suspicious skin areas.
+2. **AI Analysis**: Uploaded images undergo detailed analysis by Scure's AI algorithms.
+3. **Diagnostic Report**: Users receive a comprehensive report detailing skin cancer signs, type, and recommended next steps.
+4. **Medical Consultation**: Users can opt for virtual consultations with dermatologists available 24/7.
 
 ## Impact and Vision
-Scure's vision is to democratize access to skin cancer detection and healthcare services, particularly in areas where access to dermatologists or specialized medical facilities is limited. By leveraging technology, Scure aims to save lives through early detection, education, and continuous monitoring of skin health.
+Scure democratizes access to skin cancer detection and healthcare services, especially in regions with limited access to specialized medical facilities. By leveraging technology, Scure aims to save lives through early detection and continuous skin health monitoring.
 
 ## Future Enhancements
-- Integration with wearable devices for real-time skin health monitoring.
-- Expansion of AI capabilities to detect additional skin conditions and anomalies.
+- Integration with wearable devices for real-time monitoring.
+- Expansion of AI to detect additional skin conditions.
 - Collaborations with healthcare providers for seamless treatment and follow-up care.
 
 ---
 
-Feel free to modify or expand on these sections to better showcase the unique features and impact of Scure on your portfolio website.
+## Technical Implementation Summary
+
+### Data Processing
+- Data loading and preprocessing using image transformations and normalization.
+- Dataset composition: Training set (1006 images), Validation set (251 images).
+
+### Model Training
+- Utilized pre-trained DenseNet169 architecture for transfer learning.
+- Identified optimal learning rate.
+- Trained model with early stopping and model checkpointing.
+
+### Performance Metrics
+- Achieved peak accuracy of 91.2%.
+- F-measure of 91.7%.
+
+### Model Interpretation
+- Confusion matrix analysis.
+- Identification of most confused classes.
+- Visualization of top misclassified images.

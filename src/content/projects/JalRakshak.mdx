@@ -9,13 +9,45 @@ tag:
 
 ![DataExportApp-PyTk](/projects/travelawal.webp)
 
-## DataExportApp-PyTk: Data Export App with Python and Tkinter
-This Python application allows users to export data from a Microsoft Access database into an Excel file. The user can specify a start and end date range to select the data they want to export. The data is then retrieved from the Access database using the Pyodbc library and converted into a pandas DataFrame. Finally, the selected data is exported to an Excel file using the Pandas library.
-[Preview](https://github.com/radhika0910/DataExportApp-PyTk).
+# Jalrakshak Dashboard: Real-time Water Management
 
+## Overview
+Jalrakshak Dashboard addresses the challenge of tracking and monitoring water leakages and pilferage through a sophisticated system that integrates GIS tracking, real-time data analytics, and machine learning models.
 
-### Features:
-- **User-friendly** GUI built with Tkinter for easy data selection.
-- Ability to specify a date and time range to filter data from the database.
-- **Seamless integration** with the Microsoft Access database using Pyodbc.
-- Data manipulation and export to Excel using the powerful Pandas library.
+## Key Features
+### 1. Real-time GIS Tracking
+- **Node Monitoring**: Real-time tracking of nodes with GIS, providing up-to-date information on node location, pressure, and flow rate.
+- **Interactive Map**: Visualization of node data on an interactive map using React-Leaflet and MarkerClusterGroup.
+
+### 2. Leakage and Pilferage Detection
+- **Data Analysis**: Utilizes pressure and flow rate data to detect anomalies indicating leakages or pilferage.
+- **Machine Learning Models**: Predictive models trained to identify potential issues based on sensor data.
+
+### 3. Optimal Sensor Placement
+- **EPANET Integration**: Uses EPANetSimulation to determine the least number of sensors needed for effective monitoring.
+- **Graph Creation**: Generates optimal sensor placement strategies and visualizes them on the dashboard.
+
+### 4. Data Visualization
+- **Graphs and Charts**: Power BI integration for visual representation of data, trends, and patterns.
+- **API Integration**: Backend APIs hosted on Flask to fetch and display data on the dashboard.
+
+## Technical Implementation
+- **Frontend**: Developed using Next.js with React, leveraging Leaflet for GIS tracking and interactive mapping.
+- **Backend**: Connected with Firebase for real-time data storage and retrieval.
+- **APIs**: Hosted on Flask, enabling seamless data communication between frontend and backend.
+- **Machine Learning**: TensorFlow and scikit-learn for training and deploying predictive models.
+- **Data Handling**: Utilized pandas and NumPy for data preprocessing and manipulation.
+- **Schedulers**: Implemented APScheduler for scheduled tasks and background processing.
+
+## Libraries and Tools
+- **React**: For building the frontend user interface.
+- **Leaflet**: For interactive maps and GIS tracking.
+- **Firebase**: As the backend for real-time database management.
+- **Flask**: For hosting APIs and machine learning models.
+- **TensorFlow**: For developing and deploying machine learning models.
+- **Power BI**: For data visualization and analytics.
+
+## Future Enhancements
+- Integration with more advanced machine learning models for improved accuracy.
+- Expansion to include more comprehensive water management features.
+- Enhanced user interface with more detailed analytics and reporting capabilities.

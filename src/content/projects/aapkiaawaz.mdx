@@ -11,25 +11,30 @@ tag:
 
 
 ## Aapki Awaz: Bridging Communication Gaps
+Aapki Awaz is a groundbreaking project that aims to enhance communication with deaf individuals, leveraging cutting
 
-## Overview
-"Aapki Awaz" is a groundbreaking project aimed at enhancing communication with deaf individuals, leveraging cutting-edge technology to bridge gaps and foster inclusivity. The project encompasses a website with intuitive features designed to facilitate seamless interactions between deaf individuals and the broader community.
+### Data Collection Model
 
-## Key Features
-### 1. Action to Text
-Converts gestures or actions performed by users into text, facilitating real-time communication and understanding.
+The data collection model leverages OpenCV and CVZone to capture and preprocess hand gesture images for training a classifier.
 
-### 2. Text to Speech
-Empowers users to convert written text into spoken words, enabling effective communication for deaf individuals.
+### Libraries Used: ###
+  - cv2: Video capture and image processing.
+  - cvzone.HandTrackingModule: Hand detection.
+  - cvzone.ClassificationModule: Classification.
+  - numpy: Numerical operations.
+  - math: Calculations.
+  - pyttsx3: Text-to-speech conversion.
 
-### 3. Action to Speech
-Translates gestures or actions into audible speech, enhancing accessibility and interaction for the hearing-impaired.
+### Web Integration
 
-## Machine Learning Integration
-"Aapki Awaz" integrates a state-of-the-art supervised machine learning model capable of detecting signs from both Indian Sign Language (ISL) and American Sign Language (ASL). This intelligent system adds a layer of understanding and responsiveness, making communication more natural and efficient.
+The system is integrated into a website using Bootstrap for styling and Flask for the backend API.
 
-## Frontend Development
-The project features a user-friendly frontend interface that prioritizes accessibility and usability. The interface is designed to be intuitive, making it easy for users to navigate and utilize the communication features seamlessly.
+#### Frontend:
 
-## Impact and Vision
-"Aapki Awaz" represents a significant step towards creating a more inclusive society by breaking communication barriers for deaf individuals. The vision is to empower communities and promote understanding, acceptance, and equal opportunities through technology-driven solutions.
+- HTML, CSS, and JavaScript for the UI.
+- Bootstrap for responsive design.
+
+#### Backend:
+
+- Flask to serve the model and handle API requests.
+- The API captures video frames, processes them using the gesture recognition model, and returns the recognized alphabet to the frontend.
